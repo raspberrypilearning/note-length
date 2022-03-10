@@ -46,7 +46,7 @@ The example below shows a list of lists. Each list contains a note in quotes `''
 ---
 language: python
 filename: 
-line_numbers: true
+line_numbers: false
 line_number_start: 1
 line_highlights: 
 ---
