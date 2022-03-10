@@ -1,6 +1,6 @@
 There are several ways to set the length of a note. 
 
-### Use a value to set the length of a single note
+**Use a value to set the length of a single note**
 
 When you play a single note you can decide how long it will play for by entering a value for the second argument. 
 
@@ -17,7 +17,7 @@ line_highlights:
 speaker.play(c_note, 0.1) # play the middle c for 0.1 seconds
 --- /code ---
 
-### Use a constant for the length of a single note
+**Use a constant for the length of a single note**
 
 You can replace the value in the second argument with a constant.
 
@@ -36,7 +36,7 @@ BEAT = 1 # a constant
 speaker.play(c_note, BEAT) # play the middle c for 1 second
 --- /code ---
 
-### Set the length of each note in a tune using a value
+**Set the length of each note in a tune using a value**
 
 If you want to play a tune then you should use a list to store all of the notes in your tune along with the length of each note. 
 
@@ -55,7 +55,7 @@ my_tune = [ ['d5', 1], ['d#5', 0.5], ['f5', 1.2]] # the notes, along with the le
 
 --- /code ---
 
-### Set the length of each note in a tune using a constant
+**Set the length of each note in a tune using a constant**
 
 The example below sets the `BEAT` constant to 0.4 on line 1. 
 
