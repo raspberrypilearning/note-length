@@ -1,4 +1,4 @@
-title: Change the length of a note
+title: Note length
 hero_image: images/banner.png
 description: Instructions for changing the length of a note in MicroPython using picozero
 version: 4
@@ -6,4 +6,4 @@ listed: false
 copyedit: false
 last_tested: "2022-03-10"
 steps:
-  - title: Change the length of a note
+  - title: Note length
