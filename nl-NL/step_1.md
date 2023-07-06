@@ -1,8 +1,8 @@
-There are several ways to set the length of a note.
+Er zijn verschillende manieren om de lengte van een noot in te stellen.
 
-**Use a value to set the length of a single note**
+**Gebruik een waarde om de lengte van een enkele noot in te stellen**
 
-When you play a single note you can decide how long it will play for by entering a value for the second argument.
+Als je een enkele noot afspeelt, kun je bepalen hoe lang deze wordt afgespeeld door een waarde in te voeren voor de tweede parameter.
 
 The `0.1` in the example code below will play the note for 0.1 seconds.
 
@@ -13,11 +13,11 @@ line_highlights:
 ---
 speaker.play(c_note, 0.1) # play the middle c for 0.1 seconds --- /code ---
 
-**Use a constant for the length of a single note**
+**Gebruik een constante voor de lengte van een enkele noot**
 
-You can replace the value in the second argument with a constant.
+Je kan de waarde van de tweede parameter vervangen door een constante.
 
-The example below uses the constant `BEAT`. This can then be used to set the beat for any tune in your program.
+In het onderstaande voorbeeld wordt de constante `BEAT`gebruikt. Dit kan vervolgens worden gebruikt om de slag in te stellen voor elk deuntje in je programma.
 
 --- code ---
 ---
@@ -28,11 +28,11 @@ BEAT = 1 # a constant
 
 speaker.play(c_note, BEAT) # play the middle c for 1 second --- /code ---
 
-**Set the length of each note in a tune using a value**
+**Stel de lengte in van elke noot van een liedje met behulp van een waarde**
 
-If you want to play a tune then you should use a list to store all of the notes in your tune along with the length of each note.
+Als je een melodie wilt spelen, moet je een lijst gebruiken om alle noten van je liedje in op te slaan, samen met de lengte van elke noot.
 
-The example below shows a list of lists. Each list contains a note in quotes `''` and then a value for the length the note should play.
+Het onderstaande voorbeeld toont een lijst met lijsten. Elke lijst bevat een noot tussen aanhalingstekens `''` en vervolgens een waarde voor de lengte die de noot moet spelen.
 
 --- code ---
 ---
@@ -44,11 +44,11 @@ my_tune = [ ['d5', 1], ['d#5', 0.5], ['f5', 1.2]] # the notes, along with the le
 
 --- /code ---
 
-**Set the length of each note in a tune using a constant**
+**Stel de lengte van elke noot in een melodie in met behulp van een constante**
 
 The example below sets the `BEAT` constant to 0.4 on line 1.
 
-You can then see a list of lists on line 3. Each list contains a note in quotes `''` and then the `BEAT` constant.
+You can then see a list of lists on line 3. Elke lijst bevat een noot tussen aanhalingstekens `''` en vervolgens de constante `BEAT`.
 
 --- code ---
 ---
@@ -61,9 +61,9 @@ my_tune = [ ['d5', BEAT], ['d#5', BEAT / 2], ['f5', BEAT * 1.5]] # the notes, al
 
 --- /code ---
 
-You can make the note **shorter** by dividing the beat: `BEAT / 2`.
+Je kunt de noot **korter** maken door de slag te delen: `BEAT / 2`.
 
-You can make the note **longer** by multiplying the beat: `BEAT * 1.5`
+Je kunt de noot **langer** maken door de slag te vermenigvuldigen: `BEAT * 1.5`
 
-**Tip:** This option allows you to set the BPM of your tune and adjust it to suit your needs.
+**Tip:** Met deze optie kun je de BPM van je deuntje instellen en aanpassen aan je behoeften.
 
