@@ -1,10 +1,10 @@
-title: Note length
+title: Lengte van een noot
 hero_image: images/banner.png
-description: Instructions for changing the length of a note in MicroPython using picozero
+description: Instructies voor het wijzigen van de lengte van een noot in MicroPython met behulp van picozero
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-03-10"
 steps:
   - 
-    title: Note length
+    title: Lengte van een noot
