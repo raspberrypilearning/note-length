@@ -1,7 +1,7 @@
-play the middle c for 0.1 seconds
-a constant
-play the middle c for 1 second
-the notes, along with the length of each note
-The length of a note in a single beat
+speel de middelste c gedurende 0,1 seconde
+een constante
+speel de middelste c gedurende 1 seconde
+de noten, samen met de lengte van elke noot
+De lengte van een enkele slag
 
 
