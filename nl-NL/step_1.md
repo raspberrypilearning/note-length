@@ -4,7 +4,7 @@ Er zijn verschillende manieren om de lengte van een noot in te stellen.
 
 Als je een enkele noot afspeelt, kun je bepalen hoe lang deze wordt afgespeeld door een waarde in te voeren voor de tweede parameter.
 
-The `0.1` in the example code below will play the note for 0.1 seconds.
+De `0.1` in de onderstaande voorbeeldcode speelt de noot gedurende 0.1 seconde.
 
 --- code ---
 ---
@@ -46,9 +46,9 @@ my_tune = [ ['d5', 1], ['d#5', 0.5], ['f5', 1.2]] # the notes, along with the le
 
 **Stel de lengte van elke noot in een melodie in met behulp van een constante**
 
-The example below sets the `BEAT` constant to 0.4 on line 1.
+In het onderstaande voorbeeld wordt de constante `BEAT` ingesteld op 0.4 op regel 1.
 
-You can then see a list of lists on line 3. Elke lijst bevat een noot tussen aanhalingstekens `''` en vervolgens de constante `BEAT`.
+Je ziet dan een lijst met lijsten op regel 3. Elke lijst bevat een noot tussen aanhalingstekens `''` en vervolgens de constante `BEAT`.
 
 --- code ---
 ---
