@@ -17,7 +17,7 @@ speaker.play(c_note, 0.1) # play the middle c for 0.1 seconds --- /code ---
 
 Je kan de waarde van de tweede parameter vervangen door een constante.
 
-In het onderstaande voorbeeld wordt de constante `BEAT`gebruikt. Dit kan vervolgens worden gebruikt om de slag in te stellen voor elk deuntje in je programma.
+In het onderstaande voorbeeld wordt de constante `BEAT` gebruikt. Dit kan vervolgens worden gebruikt om het tempo in te stellen voor elk deuntje in je programma.
 
 --- code ---
 ---
@@ -61,9 +61,9 @@ my_tune = [ ['d5', BEAT], ['d#5', BEAT / 2], ['f5', BEAT * 1.5]] # the notes, al
 
 --- /code ---
 
-Je kunt de noot **korter** maken door de slag te delen: `BEAT / 2`.
+Je kunt de noot **korter** maken door de beat te delen: `BEAT / 2`.
 
-Je kunt de noot **langer** maken door de slag te vermenigvuldigen: `BEAT * 1.5`
+Je kunt de noot **langer** maken door de beat te vermenigvuldigen: `BEAT * 1.5`
 
 **Tip:** Met deze optie kun je de BPM van je deuntje instellen en aanpassen aan je behoeften.
 
