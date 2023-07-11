@@ -1,0 +1,10 @@
+
+title: Durée de la note
+hero_image: images/banner.png
+description: Instructions pour modifier la durée d'une note dans MicroPython à l'aide de picozero
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-03-10"
+steps:
+  - title: Durée de la note
