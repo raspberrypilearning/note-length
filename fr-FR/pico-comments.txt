@@ -1,0 +1,7 @@
+joue le do du milieu (middle c) pendant 0,1 seconde
+constante
+joue le do du milieu (middle c) pendant 1 seconde
+les notes, ainsi que la longueur de chaque note
+La durée d'une note sur un seul temps
+
+
