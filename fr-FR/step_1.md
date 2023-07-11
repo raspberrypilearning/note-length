@@ -1,10 +1,10 @@
-There are several ways to set the length of a note.
+Il existe plusieurs façons de régler la durée d'une note.
 
-**Use a value to set the length of a single note**
+**Utiliser une valeur pour définir la durée d'une seule note**
 
-When you play a single note you can decide how long it will play for by entering a value for the second argument.
+Lorsque tu joues une seule note, tu peux décider de sa durée en saisissant une valeur pour le deuxième argument.
 
-The `0.1` in the example code below will play the note for 0.1 seconds.
+Le `0,1` dans l'exemple de code ci-dessous jouera la note pendant 0,1 seconde.
 
 --- code ---
 ---
@@ -13,11 +13,11 @@ line_highlights:
 ---
 speaker.play(c_note, 0.1) # play the middle c for 0.1 seconds --- /code ---
 
-**Use a constant for the length of a single note**
+**Utiliser une constante pour la durée d'une seule note**
 
-You can replace the value in the second argument with a constant.
+Tu peux remplacer la valeur du deuxième argument par une constante.
 
-The example below uses the constant `BEAT`. This can then be used to set the beat for any tune in your program.
+L'exemple ci-dessous utilise la constante `RYTHME`. Cela peut ensuite être utilisé pour régler le rythme de n'importe quel morceau de ton programme.
 
 --- code ---
 ---
@@ -28,11 +28,11 @@ BEAT = 1 # a constant
 
 speaker.play(c_note, BEAT) # play the middle c for 1 second --- /code ---
 
-**Set the length of each note in a tune using a value**
+**Définir la durée de chaque note d'un morceau à l'aide d'une valeur**
 
-If you want to play a tune then you should use a list to store all of the notes in your tune along with the length of each note.
+Si tu veux jouer un morceau, tu dois utiliser une liste pour stocker toutes les notes de ton morceau avec la durée de chaque note.
 
-The example below shows a list of lists. Each list contains a note in quotes `''` and then a value for the length the note should play.
+L'exemple ci-dessous montre une liste de listes. Chaque liste contient une note entre guillemets `''` puis une valeur pour la durée que la note doit jouer.
 
 --- code ---
 ---
@@ -44,11 +44,11 @@ my_tune = [ ['d5', 1], ['d#5', 0.5], ['f5', 1.2]] # the notes, along with the le
 
 --- /code ---
 
-**Set the length of each note in a tune using a constant**
+**Définir la durée de chaque note d'un morceau à l'aide d'une constante**
 
-The example below sets the `BEAT` constant to 0.4 on line 1.
+L'exemple ci-dessous définit la constante `RYTHME` sur 0,4 sur la ligne 1.
 
-You can then see a list of lists on line 3. Each list contains a note in quotes `''` and then the `BEAT` constant.
+Tu peux alors voir une liste de listes sur la ligne 3. Chaque liste contient une note entre guillemets `''` puis la constante `RYTHME`.
 
 --- code ---
 ---
@@ -61,9 +61,9 @@ my_tune = [ ['d5', BEAT], ['d#5', BEAT / 2], ['f5', BEAT * 1.5]] # the notes, al
 
 --- /code ---
 
-You can make the note **shorter** by dividing the beat: `BEAT / 2`.
+Tu peux rendre la note **plus courte** en divisant le temps : `RYTHME / 2`.
 
-You can make the note **longer** by multiplying the beat: `BEAT * 1.5`
+Tu peux rendre la note **plus longue** en multipliant le temps : `RYTHME * 1.5`
 
-**Tip:** This option allows you to set the BPM of your tune and adjust it to suit your needs.
+**Astuce :** Cette option te permet de définir le BPM de ton morceau et de l'ajuster en fonction de tes besoins.
 
