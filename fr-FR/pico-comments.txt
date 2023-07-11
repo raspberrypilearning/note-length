@@ -1,7 +1,7 @@
-play the middle c for 0.1 seconds
-a constant
-play the middle c for 1 second
-the notes, along with the length of each note
-The length of a note in a single beat
+joue le do du milieu (middle c) pendant 0,1 seconde
+constante
+joue le do du milieu (middle c) pendant 1 seconde
+les notes, ainsi que la longueur de chaque note
+La durée d'une note sur un seul temps
 
 
