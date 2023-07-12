@@ -21,7 +21,7 @@ luidspreker.play(c_note, 0.1) # speel de middelste c gedurende 0,1 seconde
 
 Je kan de waarde van de tweede parameter vervangen door een constante.
 
-In het onderstaande voorbeeld wordt de constante `BEAT`gebruikt. Dit kan vervolgens worden gebruikt om de slag in te stellen voor elk deuntje in je programma.
+In het onderstaande voorbeeld wordt de constante `BEAT` gebruikt. Dit kan vervolgens worden gebruikt om het tempo in te stellen voor elk deuntje in je programma.
 
 --- code ---
 ---
@@ -51,7 +51,7 @@ line_number_start: 1
 line_highlights: 
 ---
 
-my_tune = [ ['d5', 1], ['d#5', 0.5], ['f5', 1.2]] # de noten, samen met de lengte van elke noot
+mijn_deuntje = [ ['d5', 1], ['d#5', 0.5], ['f5', 1.2]] # de noten, samen met de lengte van elke noot
 --- /code ---
 
 **Stel de lengte van elke noot in een melodie in met behulp van een constante**
@@ -68,15 +68,15 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 
 ---
-BEAT = 0.4 # De lengte van een enkele slag
+BEAT = 0.4 # De lengte van een noot in een enkele slag
 
-my_tune = [ ['d5', BEAT], ['d#5', BEAT / 2], ['f5', BEAT * 1.5]] # de noten, samen met de lengte van elke noot
+mijn_deuntje = [ ['d5', BEAT], ['d#5', BEAT / 2], ['f5', BEAT * 1.5]] # de noten, samen met de lengte van elke noot
 
 --- /code ---
 
-Je kunt de noot **korter** maken door de slag te delen: `BEAT / 2`.
+Je kunt de noot **korter** maken door de beat te delen: `BEAT / 2`.
 
-Je kunt de noot **langer** maken door de slag te vermenigvuldigen: `BEAT * 1.5`
+Je kunt de noot **langer** maken door de beat te vermenigvuldigen: `BEAT * 1.5`
 
 **Tip:** Met deze optie kun je de BPM van je deuntje instellen en aanpassen aan je behoeften.
 
